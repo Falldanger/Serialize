@@ -1,0 +1,5 @@
+Object serialization
+
+Make a shape with two fields: x and y. Also add buttons: “Save” and “Load”.
+When entering x and y and pressing the “Save” button, an object of the Point class must be created, which must be serialized.
+When clicking the “Load” button, the coordinates of the serialized object should be substituted into the x and y fields.

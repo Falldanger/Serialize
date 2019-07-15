@@ -17,7 +17,7 @@
         fclose($temp); 
 	}
 
-	if (isset($_POST['download'])) {
+	if (isset($_POST['load'])) {
 		$r = file_get_contents("abc.txt");
 		$str2=unserialize($r);
 		unlink('abc.txt');
@@ -36,7 +36,7 @@
 	<div>
 		<input type="submit" name="save" value="Save">
 		<div>
-		<input type="submit" name="download" value="Download">
+		<input type="submit" name="load" value="Load">
 	</div>
 	</div>
 </form>
